@@ -1,6 +1,7 @@
 const HomePage = require('./../pages/HomePage');
 const LoginPage = require('./../pages/LoginPage');
 const AppointmentBookingPage = require('./../pages/AppointmentBookingPage');
+const AppointmentConfirmationPage = require('./../pages/AppointmentConfirmationPage');
 
 describe('Book an appointment on katalon-demo-cura.herokuapp.com', () => {
 
@@ -20,6 +21,7 @@ describe('Book an appointment on katalon-demo-cura.herokuapp.com', () => {
     appointmentBookingPage.makeAnAppointment();
 
     // // Verify the appointment
-    appointmentBookingPage.verifyAppointment();
+    const appointmentConfirmationPage = new AppointmentConfirmationPage();
+    appointmentConfirmationPage.verifyAppointment();
   });
 });
