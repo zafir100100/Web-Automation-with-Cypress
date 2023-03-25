@@ -7,6 +7,10 @@ describe('Book an appointment on katalon-demo-cura.herokuapp.com', () => {
 
   const homePage = new HomePage();
 
+  before(() => {
+    cy.viewport(1920, 1080);
+  })
+
   it('Logs in and books an appointment', () => {
 
     // Visit the website and click make an appointment
