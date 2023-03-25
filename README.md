@@ -60,3 +60,4 @@ Overall, Cypress is a powerful and efficient tool for web automation that can he
 
 ## Automation Output Video:
 
+https://github.com/zafir100100/Web-Automation-with-Cypress/blob/master/cypress/videos/AppointmentBookingTest.cy.js.mp4
