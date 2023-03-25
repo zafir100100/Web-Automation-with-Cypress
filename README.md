@@ -57,6 +57,7 @@ Overall, Cypress is a powerful and efficient tool for web automation that can he
 
 ## Mocha Awesome Report:
 
+![Screenshot (19)](https://github.com/zafir100100/Web-Automation-with-Cypress/blob/master/cypress/screenshots/MochawesomeReport.PNG)
 
 ## Automation Output Video:
 
